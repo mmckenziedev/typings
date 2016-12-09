@@ -74,6 +74,12 @@ declare module 'dijit/Tooltip' {
 	export = Tooltip;
 }
 
+declare module 'dijit/TitlePane' {
+	type TitlePane = dijit.TitlePane;
+	const TitlePane: dijit.TitlePaneConstructor;
+	export = TitlePane;
+}
+
 declare module 'dijit/TooltipDialog' {
 	type TooltipDialog = dijit.TooltipDialog;
 	const TooltipDialog: dijit.TooltipDialogConstructor;
