@@ -542,7 +542,7 @@ declare namespace dojo {
 			<A, B>(superClass: DeclareConstructor<A>, props: B): DeclareConstructor<A & B>;
 			<A>(className: string, superClass: DeclareConstructor<any> | DeclareConstructor<any>[], props: any): DeclareConstructor<A>;
 			<A>(superClass: DeclareConstructor<any> | DeclareConstructor<any>[], props: any): DeclareConstructor<A>;
-			(className: string, superClass: any[], props: any): DeclareConstructor<any>;
+			(className: string, superClass: any | any[], props: any): DeclareConstructor<any>;
 			(superClass: any[], props: any): DeclareConstructor<any>;
 
 			/**
